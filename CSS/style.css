@@ -1,0 +1,17 @@
+/*disposição lado a lado dos conteúdos*/
+.flex {
+	display: flex;
+}
+
+/*largura e definição da cor das bordas*/
+.flex div {
+	border: 1px solid #000000;
+	margin: 15px;
+	flex-basis: 100%;
+}
+
+/*largura das imagens*/
+.flex img {
+	max-width: 100%;
+}
+
